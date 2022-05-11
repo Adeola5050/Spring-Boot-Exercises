@@ -1,0 +1,32 @@
+-------------------------------------------------------------------------------
+Test set: com.technophiles.diaryapp.services.UserServiceTest
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 0, Errors: 7, Skipped: 0, Time elapsed: 17.425 s <<< FAILURE! - in com.technophiles.diaryapp.services.UserServiceTest
+thatTestThrowsDiaryExceptionExceptionWhenEmailAlreadyExists  Time elapsed: 0.667 s  <<< ERROR!
+org.springframework.dao.IncorrectResultSizeDataAccessException: Query { "$java" : Query: { "email" : "testemail@gmail.com"}, Fields: {}, Sort: {} } returned non unique result.
+	at com.technophiles.diaryapp.services.UserServiceTest.thatTestThrowsDiaryExceptionExceptionWhenEmailAlreadyExists(UserServiceTest.java:53)
+
+testCreateAccount  Time elapsed: 0.095 s  <<< ERROR!
+org.springframework.dao.IncorrectResultSizeDataAccessException: Query { "$java" : Query: { "email" : "testemail@gmail.com"}, Fields: {}, Sort: {} } returned non unique result.
+	at com.technophiles.diaryapp.services.UserServiceTest.testCreateAccount(UserServiceTest.java:44)
+
+testThatCanDeleteAUserAndItsDiaries  Time elapsed: 0.147 s  <<< ERROR!
+org.springframework.dao.IncorrectResultSizeDataAccessException: Query { "$java" : Query: { "email" : "testemail@gmail.com"}, Fields: {}, Sort: {} } returned non unique result.
+	at com.technophiles.diaryapp.services.UserServiceTest.testThatCanDeleteAUserAndItsDiaries(UserServiceTest.java:102)
+
+testThatCanGetUserInformation  Time elapsed: 0.187 s  <<< ERROR!
+org.springframework.dao.IncorrectResultSizeDataAccessException: Query { "$java" : Query: { "email" : "testemail@gmail.com"}, Fields: {}, Sort: {} } returned non unique result.
+	at com.technophiles.diaryapp.services.UserServiceTest.testThatCanGetUserInformation(UserServiceTest.java:63)
+
+testThatThrowsExceptionWhenUserIdIsNotFound  Time elapsed: 0.102 s  <<< ERROR!
+org.springframework.dao.IncorrectResultSizeDataAccessException: Query { "$java" : Query: { "email" : "testemail@gmail.com"}, Fields: {}, Sort: {} } returned non unique result.
+	at com.technophiles.diaryapp.services.UserServiceTest.testThatThrowsExceptionWhenUserIdIsNotFound(UserServiceTest.java:80)
+
+testThatCanUpdateUserInformation  Time elapsed: 0.143 s  <<< ERROR!
+org.springframework.dao.IncorrectResultSizeDataAccessException: Query { "$java" : Query: { "email" : "testemail@gmail.com"}, Fields: {}, Sort: {} } returned non unique result.
+	at com.technophiles.diaryapp.services.UserServiceTest.testThatCanUpdateUserInformation(UserServiceTest.java:70)
+
+testThatCanAddDiaryToUser  Time elapsed: 0.2 s  <<< ERROR!
+org.springframework.dao.IncorrectResultSizeDataAccessException: Query { "$java" : Query: { "email" : "testemail@gmail.com"}, Fields: {}, Sort: {} } returned non unique result.
+	at com.technophiles.diaryapp.services.UserServiceTest.testThatCanAddDiaryToUser(UserServiceTest.java:91)
+

@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.technophiles.diaryapp.mockTests.UserServiceMockTest
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 16.218 s - in com.technophiles.diaryapp.mockTests.UserServiceMockTest
